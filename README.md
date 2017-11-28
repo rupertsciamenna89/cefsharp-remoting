@@ -4,7 +4,7 @@ How to use remoting CefSharp with ShadowCopyFile
 This solution gives an example to how launch CefSharp browser from an application launched with ShadowCopy.
 Considering that the CefSharp can run only int eh default app domain (https://github.com/cefsharp/CefSharp/wiki/General-Usage#need-to-knowlimitation), I have looked at the project https://github.com/stever/AppHostCefSharp. 
 
- Although the solution is for a WPF application, I used with success. The solution is composed from 4 projects:
+ Although the solution is for a WPF application, I used with success. The solution is composed of 4 projects:
  - MainApplication (base application that I have to launch with ShadowCopy)
  - MainApplication.Launcher (application launcher)
  - MainApplication.WebBrowser (winforms controls library that contains the WebBrowser)
