@@ -1,14 +1,14 @@
-﻿namespace MainApplication {
-    partial class Form1 {
+﻿namespace MainApplication.WebBrowser {
+    partial class WebControlForm {
         /// <summary>
-        /// Variabile di progettazione necessaria.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Pulire le risorse in uso.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">ha valore true se le risorse gestite devono essere eliminate, false in caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing) {
             if (disposing && (components != null)) {
                 components.Dispose();
@@ -16,19 +16,18 @@
             base.Dispose(disposing);
         }
 
-        #region Codice generato da Progettazione Windows Form
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Metodo necessario per il supporto della finestra di progettazione. Non modificare
-        /// il contenuto del metodo con l'editor di codice.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.Text = "WebControlForm";
         }
 
         #endregion
     }
 }
-
