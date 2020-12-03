@@ -1,4 +1,6 @@
 # cefsharp-remoting
+This project is archived because it is old and I won't use it anymore. The project is archived.
+
 How to use remoting CefSharp with ShadowCopyFile
 
 This solution gives an example to how launch CefSharp browser from an application launched with ShadowCopy.
